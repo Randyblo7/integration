@@ -1,3 +1,4 @@
 -r requirements_base.txt
 awscli
 homeassistant
+cryptography>=41.0.4 # not directly required, pinned by Snyk to avoid a vulnerability
