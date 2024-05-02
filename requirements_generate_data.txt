@@ -1,3 +1,4 @@
 -r requirements_base.txt
 awscli
 homeassistant
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
