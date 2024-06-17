@@ -6,3 +6,5 @@ pytest==7.3.1
 pytest-asyncio==0.21.0
 pytest-cov==4.0.0
 pytest-socket==0.6.0
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
