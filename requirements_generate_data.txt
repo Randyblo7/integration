@@ -1,3 +1,4 @@
 -r requirements_base.txt
 awscli
 homeassistant
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
